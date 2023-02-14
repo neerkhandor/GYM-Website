@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+    *{
+      font-family: 'Ubuntu', sans-serif;
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body{
+      color:white;
+      background-image: url('GYM.jpg');
+      background-size: 1349px 620px;
+      background-repeat:no-repeat;
+     height:615px;
+      width:1349px;
+    }
+/*     .img{
+      height: 620px;
+      width: 1349px;
+    
+    } */
+    .left{
+      border:2px solid yellow;
+      display: inline-block;
+      position: absolute;
+      top:15px;
+      left:30px;
+      width:100px;
+    }
+    .mid{
+      display: block;
+      border: 2px solid red;
+      width:550px;
+      margin:15px auto;
+    }
+    .right{
+      display: inline-block;
+      border:2px solid green;
+      position: absolute;
+      top:15px;
+      right:30px;
+      width:250px;
+    }
+    nav{
+/*       display: inline-block; */
+    }
+    nav ul li{
+      display: inline-block;
+      list-style: none;
+      padding: 2px;
+      margin: 4px;
+    }
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      padding:7px ;
+/*       margin:2px; */
+      font-size:20px ;
+    }
+    nav ul li a:hover {
+      color:#bf7c7c;
+      text-decoration: underline;
+/*       font-weight: bold; */
+    }
+    .left img{
+      width: 39px;
+      margin: 0px 28px;
+    }
+    .title{
+      text-align: center;
+      font-weight:bold;
+      line-height:28px;
+      
+    }
+    #btn{
+      height: 32px;
+      width: 74px;
+      padding: 3px;
+      margin: 4px 11px;
+      cursor:pointer;
+      background:#8791d9;
+      color:white;
+      border-style:none;
+      border-radius:7px;
+      }
+    #btn:hover{
+      background-color:#7a7e9b;
+      }
